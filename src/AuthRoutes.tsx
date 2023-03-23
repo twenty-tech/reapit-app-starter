@@ -3,7 +3,7 @@ import { Loader, MainContainer, PageContainer } from "@reapit/elements"
 import { Suspense } from "react"
 import { Navigate, Outlet, useLocation } from "react-router-dom"
 import SideNavigation from "./components/SideNavigation"
-import { reapitConnectBrowserSession } from "./consts"
+import { reapitConnectBrowserSession } from "./constants"
 
 export const AuthRoutes = () => {
   const { connectSession, connectInternalRedirect } = useReapitConnect(reapitConnectBrowserSession)

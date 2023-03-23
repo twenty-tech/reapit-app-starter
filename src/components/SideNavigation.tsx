@@ -2,7 +2,7 @@ import { useReapitConnect } from "@reapit/connect-session"
 import { NavResponsive, NavResponsiveOption } from "@reapit/elements"
 import { FC } from "react"
 import { useNavigate } from "react-router-dom"
-import { reapitConnectBrowserSession } from "../consts"
+import { reapitConnectBrowserSession } from "../constants"
 
 export const getDefaultNavIndex = (pathname: string) => {
   switch (pathname) {
