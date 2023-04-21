@@ -1,9 +1,9 @@
 import { FC } from "react";
-import styled from "styled-components";
 import connectImage from '../assets/reapit-connect.png'
 import loginGraphic from '../assets/login-graphic.svg'
 import { BodyText, Button } from "@reapit/elements";
 import { reapitConnectBrowserSession } from "../constants";
+import styled from 'styled-components';
 
 const LoginContainer = styled.div`
   min-width: 100vw;
